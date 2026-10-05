@@ -26,8 +26,8 @@ end = '<!-- INLINE WORK PANELS END -->'
 brand = collection('on-k')
 ppl = collection('contents-solution')
 copy = ('<section class="collection-heading copy-overview"><h3>Copywriting</h3>'
-        '<p>채널 연간 플래닝부터 30억 원 규모의 공익광고 캠페인까지, 폭넓은 카피라이팅을 경험했습니다. '
-        '브랜드의 문제를 인사이트로 풀고, 콘텐츠와 캠페인의 메시지로 구체화했습니다.</p></section>'
+        '<p><span class="intro-line">채널 연간 플래닝부터 30억 원 규모의 공익광고 캠페인까지, 폭넓은 카피라이팅을 경험했습니다.</span>'
+        '<span class="intro-line">브랜드의 문제를 인사이트로 풀고, 콘텐츠와 캠페인의 메시지로 구체화했습니다.</span></p></section>'
         + collection('on-air', 'copy-on-air')
         + collection('ideas', 'copy-idea'))
 
