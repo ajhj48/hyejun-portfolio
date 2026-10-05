@@ -9,8 +9,7 @@ function showWork(filter, updateUrl = false) {
     button.setAttribute('aria-pressed', String(active));
   });
   workPanels.forEach(panel => {panel.hidden = panel.dataset.workPanel !== filter;});
-  const count = document.querySelector('#work-count');
-  if (count) count.textContent = workCounts[filter];
+  
   if (updateUrl) history.pushState(null, '', filter === 'all' ? '#work' : '#work-' + filter);
 }
 function restoreWork() {
