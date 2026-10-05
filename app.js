@@ -1,6 +1,6 @@
 const filterButtons = document.querySelectorAll('[data-filter]');
 const workPanels = document.querySelectorAll('[data-work-panel]');
-const workCounts = {all: '4개 분야', brand: '브랜드 · SNS 전략', content: '10개 프로젝트', copy: '15개 프로젝트'};
+const workCounts = {all: '3개 업무 영역', brand: '브랜딩 · SNS 콘텐츠 총괄', content: 'PPL 콘텐츠', copy: 'ON AIR · IDEA'};
 function showWork(filter, updateUrl = false) {
   if (!workCounts[filter] || !workPanels.length) return;
   filterButtons.forEach(button => {
@@ -23,7 +23,7 @@ filterButtons.forEach(button => button.addEventListener('click', () => showWork(
 window.addEventListener('popstate', restoreWork);
 window.addEventListener('hashchange', restoreWork);
 restoreWork();
-// Direct links to a filtered view land at the Projects section after it is revealed.
+// Direct links to a filtered view land at the Work section after it is revealed.
 if (location.hash.startsWith('#work-')) document.querySelector('#work')?.scrollIntoView();
 else if (location.hash.startsWith('#copy-')) document.querySelector(location.hash)?.scrollIntoView();
 const lightbox = document.querySelector('#lightbox');
