@@ -1,4 +1,4 @@
-name: One-time final portfolio import
+name: One-time verified portfolio import
 on:
   push:
     branches: [main]
