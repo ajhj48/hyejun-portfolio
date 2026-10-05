@@ -1,25 +1,14 @@
-# HYEJUN JEON — Editorial Portfolio Prototype
+# 전혜준 포트폴리오
 
-This is version 2 of a responsive static website prototype: refined editorial style, monochrome/off-white palette, balanced image and text, and clearly marked real-asset placeholders.
+카피라이팅 · PPL 콘텐츠 · CJ 사내벤처 브랜드/SNS 전략.
 
-## Preview locally
-1. Unzip this folder.
-2. Open `index.html` in a browser.
-3. Click the project tiles to inspect each project detail page.
+## 구성
+- `index.html`: 소개·경력·수상, All/Brand/PPL Content/Copywriting 보기
+- `on-k.html`, `contents-solution.html`, `on-air.html`, `ideas.html`: 분야별 상세
+- `about.html`: 프로필
+- `style.css`, `app.js`: 스타일과 필터·이미지 확대
+- `assets/`, `fonts/`: 작업 이미지와 SUIT 폰트
 
-## Publish free with GitHub Pages
-1. Sign in to GitHub and create a **public** repository named `hyejun-portfolio` (or any available name).
-2. Upload the contents of this folder to the repository root (upload the files/folders themselves, not the outer zip).
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select branch `main`, folder `/ (root)`, then Save.
-6. Wait for the published URL shown in Settings → Pages.
+정적 사이트이며 설치나 빌드 없이 사용할 수 있습니다. Settings → Pages → Deploy from a branch → main → /(root)로 게시합니다.
 
-## Before publishing
-- Replace the designed typographic placeholders with approved real project images/screenshots from the existing Imweb portfolio.
-- Confirm all performance numbers and their measurement dates before publishing.
-- Add a real contact email to the `mailto:` link in `index.html` only if you want it public.
-- Check that each project image/video is cleared for public portfolio use.
-- Keep a backup copy of this entire folder.
-
-The design placeholders are intentionally typographic compositions, not fabricated project screenshots.
+상세 페이지 수정 후 `python scripts/build-work-panels.py`를 실행하면 메인의 분야별 내용도 갱신됩니다.
