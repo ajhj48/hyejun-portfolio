@@ -1,0 +1,428 @@
+{
+  "origin": "https://hyejun-creative-portfolio.wnsdn553.chatgpt.site",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "content": ""
+    },
+    {
+      "path": "README.md",
+      "size": 717,
+      "sha": "5832e4ae80fb68417dee88cf3d2141a2b19d89f7",
+      "content": "# 전혜준 포트폴리오\n\n카피라이팅 · PPL 콘텐츠 · CJ 사내벤처 브랜드/SNS 전략.\n\n## 구성\n- `index.html`: 소개·경력·수상, All/Brand/PPL Content/Copywriting 보기\n- `on-k.html`, `contents-solution.html`, `on-air.html`, `ideas.html`: 분야별 상세\n- `about.html`: 프로필\n- `style.css`, `app.js`: 스타일과 필터·이미지 확대\n- `assets/`, `fonts/`: 작업 이미지와 SUIT 폰트\n\n정적 사이트이며 설치나 빌드 없이 사용할 수 있습니다. Settings → Pages → Deploy from a branch → main → /(root)로 게시합니다.\n\n상세 페이지 수정 후 `python scripts/build-work-panels.py`를 실행하면 메인의 분야별 내용도 갱신됩니다.\n"
+    },
+    {
+      "path": "about.html",
+      "size": 4178,
+      "sha": "9cdcaf5de332275fcd678fd039086a06c65bfc03"
+    },
+    {
+      "path": "app.js",
+      "size": 3466,
+      "sha": "cf9b9eb5924c4ab86eb2f8d266e56d646dd21ed2"
+    },
+    {
+      "path": "assets/0086bb330324.webp",
+      "size": 12264,
+      "sha": "61c89b733c3fecfae72ea76471a47f1f58379e3d"
+    },
+    {
+      "path": "assets/051d6c9b5d47.webp",
+      "size": 66738,
+      "sha": "1e084ef17421b074e7dddbf5813af5cc36420674"
+    },
+    {
+      "path": "assets/0a04c27966f0.webp",
+      "size": 147270,
+      "sha": "b021c29918d4a4aad5b815c7d024eaf5bcdcce11"
+    },
+    {
+      "path": "assets/0ba9352f81a7.webp",
+      "size": 71604,
+      "sha": "eb703606ded43c240381164561749deed2f17dbb"
+    },
+    {
+      "path": "assets/0d4ead6873d2.webp",
+      "size": 2728,
+      "sha": "1d322d21285d2a033ead471039b0fa65c098f401"
+    },
+    {
+      "path": "assets/0f25f57cc225.webp",
+      "size": 65648,
+      "sha": "82f2cc3cf187430d5c47229166930626d264486e"
+    },
+    {
+      "path": "assets/0fdab0b12f5b.webp",
+      "size": 175920,
+      "sha": "ee63aea5137c2f83cb22487fea656dfc8bdb35a3"
+    },
+    {
+      "path": "assets/11a935d57b03.webp",
+      "size": 59654,
+      "sha": "74c12ef8a79d4bdfb58b2e64176f86661e98afb5"
+    },
+    {
+      "path": "assets/13ca1a0cac05.webp",
+      "size": 159646,
+      "sha": "aad12c9ca0ca20a81d7fa5d9437958225dde57dd"
+    },
+    {
+      "path": "assets/167df4ab8407.webp",
+      "size": 92996,
+      "sha": "1943f17eb0d8d0d84a487e4994153ee9be1e4ece"
+    },
+    {
+      "path": "assets/16d5345818fd.webp",
+      "size": 15412,
+      "sha": "def4cd4ffd650213047ada47e45639a0e712710d"
+    },
+    {
+      "path": "assets/196096cdf6d2.webp",
+      "size": 25286,
+      "sha": "442a33de0225be502970e9918696d7415ae8e55a"
+    },
+    {
+      "path": "assets/1a36b102a24a.webp",
+      "size": 159426,
+      "sha": "f965cb295c4c264bc12e1870872c86b5bdf9bcb8"
+    },
+    {
+      "path": "assets/1d41322b2df5.webp",
+      "size": 30966,
+      "sha": "d1b605df19bce8fb200f02b66d7b1ea975a4c763"
+    },
+    {
+      "path": "assets/1e0c312b3413.webp",
+      "size": 26354,
+      "sha": "9a41c098f8ef3cc88b7c36a5e933ec5d49e4113b"
+    },
+    {
+      "path": "assets/1f56256b527c.webp",
+      "size": 150412,
+      "sha": "8e88bf92f586f5a26558f42c1e0f7d68b7cb8a25"
+    },
+    {
+      "path": "assets/20c1c9f89462.webp",
+      "size": 22448,
+      "sha": "ef246b6fa740824caad4fc8813ddb4286eb45f77"
+    },
+    {
+      "path": "assets/2bc894d5840d.webp",
+      "size": 19046,
+      "sha": "8c982537e8c5b298d17cc9c5bdfa4e10b5f50ab4"
+    },
+    {
+      "path": "assets/2dadc5f17450.webp",
+      "size": 41770,
+      "sha": "9c7b1518d7592375de77813b61d59dff6045d33b"
+    },
+    {
+      "path": "assets/325956006a44.webp",
+      "size": 103904,
+      "sha": "9125815d232325308b504d5beefbdd4ab5bd1b9e"
+    },
+    {
+      "path": "assets/33cc2d3b9e51.webp",
+      "size": 19634,
+      "sha": "173b0474796487b6016dada22c0c4ba54aeba55b"
+    },
+    {
+      "path": "assets/3c36a2945a91.webp",
+      "size": 349116,
+      "sha": "64631a731a992f0b094340e435558c560543efc2"
+    },
+    {
+      "path": "assets/3e04fea7b8e4.webp",
+      "size": 21506,
+      "sha": "a0d91be01492beaacad24c0b793144e5845906b2"
+    },
+    {
+      "path": "assets/4052adebcdeb.webp",
+      "size": 33566,
+      "sha": "43f1c51fa8f65529e27e5dd885b1b326e9a54494"
+    },
+    {
+      "path": "assets/4796f0eb8d64.webp",
+      "size": 15860,
+      "sha": "36ad425d9b051656f204128c7e002addad6ecd45"
+    },
+    {
+      "path": "assets/50ee3d4488f0.webp",
+      "size": 160314,
+      "sha": "d9886649c25828ca23ca59cfcac405a20ff80ca3"
+    },
+    {
+      "path": "assets/590e85eba81e.webp",
+      "size": 186320,
+      "sha": "7125cfda99a1c1a6473155ced8558f40136959de"
+    },
+    {
+      "path": "assets/5960b835dd62.webp",
+      "size": 72700,
+      "sha": "8c1a63fe15a96349c2768b16a207e78d875a1df3"
+    },
+    {
+      "path": "assets/5d03e0c23912.webp",
+      "size": 34432,
+      "sha": "6c26ff0a9b727d045ce6f1109877cfc4cf597024"
+    },
+    {
+      "path": "assets/6271bf0a7556.webp",
+      "size": 26130,
+      "sha": "27a734f9517577e8eaa609196141978e68b4d5eb"
+    },
+    {
+      "path": "assets/628d4199fb47.webp",
+      "size": 50508,
+      "sha": "6604255091558556755b387099907ab619d958f6"
+    },
+    {
+      "path": "assets/641465919945.webp",
+      "size": 113106,
+      "sha": "69349688a072e749eff15131a38c123ab515fea0"
+    },
+    {
+      "path": "assets/6eef30f8a696.webp",
+      "size": 47554,
+      "sha": "6b89a3cc1612937a346640a5063c19575ffc23d2"
+    },
+    {
+      "path": "assets/71520570a56a.webp",
+      "size": 48118,
+      "sha": "c0382db2c40748ccfe33c67e680034faadf312d2"
+    },
+    {
+      "path": "assets/77b63c40ed7f.webp",
+      "size": 163398,
+      "sha": "49b27edb8b5d88ad11edd440930da629435271e5"
+    },
+    {
+      "path": "assets/79688a3e6758.webp",
+      "size": 113342,
+      "sha": "e982b8c776d1ab234cc533f33fac4b2c22d9f758"
+    },
+    {
+      "path": "assets/7a758e83e88d.webp",
+      "size": 25068,
+      "sha": "8c6717b834bad2b9b67d180fa1cb7032fda532bd"
+    },
+    {
+      "path": "assets/7d22a12dc758.webp",
+      "size": 55772,
+      "sha": "7546da025189edd3b75c1348abc369708f4608be"
+    },
+    {
+      "path": "assets/7f128b70aeda.webp",
+      "size": 50192,
+      "sha": "adf7abd32faeaf0c13dd787a63c657d316f6534b"
+    },
+    {
+      "path": "assets/800280ddb8ed.webp",
+      "size": 25106,
+      "sha": "485f597f6a34a7da0fdfa98e555b66bb4ce90e92"
+    },
+    {
+      "path": "assets/82c535ae0239.webp",
+      "size": 31806,
+      "sha": "e2616f329a296e3876868f171a53686342bccc22"
+    },
+    {
+      "path": "assets/84d71583f432.webp",
+      "size": 147856,
+      "sha": "a30cfeef9b9afa09d92bd998c11d49483b93318f"
+    },
+    {
+      "path": "assets/8668b90c71d6.webp",
+      "size": 196742,
+      "sha": "bf1528a1aa415f312940fd820a0eac9f67ce64b1"
+    },
+    {
+      "path": "assets/8897893dd297.webp",
+      "size": 73940,
+      "sha": "d9b2acabf20b8fba48d172812446ff8899be1990"
+    },
+    {
+      "path": "assets/95eccec312dc.webp",
+      "size": 63806,
+      "sha": "ed35867f61e2f05b19f83fef9b663c1844af7918"
+    },
+    {
+      "path": "assets/9a85798438f9.webp",
+      "size": 32866,
+      "sha": "224d6938c89148643c08c0b182f31b75164b7c5b"
+    },
+    {
+      "path": "assets/9c5370e8abaa.webp",
+      "size": 165318,
+      "sha": "889dbaa98d0ba16f7dae69db59cd4eb75afc58bd"
+    },
+    {
+      "path": "assets/9d2eccc7ae03.webp",
+      "size": 227504,
+      "sha": "06e01c89df721ddca5a57945af3bae7030b44901"
+    },
+    {
+      "path": "assets/9e9f6a1c0204.webp",
+      "size": 75190,
+      "sha": "4d14eea6ceab0644d700584fa96335f2b2f3ecc9"
+    },
+    {
+      "path": "assets/9fa5c52a9f21.webp",
+      "size": 85846,
+      "sha": "50b01cb30b3347c80ab21181ac04a8911b18bac8"
+    },
+    {
+      "path": "assets/afe7522471ac.webp",
+      "size": 188774,
+      "sha": "7f4b105bf97ed21753fd67c926c8a0446348be34"
+    },
+    {
+      "path": "assets/b1326d0b1428.webp",
+      "size": 74462,
+      "sha": "278edbaf3ce4e27a8954755d928681d6d20f8322"
+    },
+    {
+      "path": "assets/b8959dc64622.webp",
+      "size": 55514,
+      "sha": "57e086b36e7c219085a01150954fb20550c13499"
+    },
+    {
+      "path": "assets/bac192288637.webp",
+      "size": 65978,
+      "sha": "0c25d66d4b96290620a3e0f4006338b0996c7729"
+    },
+    {
+      "path": "assets/bcd97fb4456d.webp",
+      "size": 22474,
+      "sha": "31f393ff55bd307b53e6fee828427d4c2b89c8fc"
+    },
+    {
+      "path": "assets/bd6bd4fafdc9.webp",
+      "size": 22274,
+      "sha": "e3cc96ce91520325de1e8d5cbbee54a21f4bf555"
+    },
+    {
+      "path": "assets/c3c98039a7b0.webp",
+      "size": 39618,
+      "sha": "602ba15f0d1f350a5609cfe0468a5518a0958ae8"
+    },
+    {
+      "path": "assets/c999ab165e62.webp",
+      "size": 162106,
+      "sha": "8acd402aae27d7c4565046bc4ddf5b1c6bca9dcd"
+    },
+    {
+      "path": "assets/cf431673523e.webp",
+      "size": 55178,
+      "sha": "bae4d13fd8fbb0a9443ef5bce48ed0914e4b6315"
+    },
+    {
+      "path": "assets/d0eb7b1d6d7f.webp",
+      "size": 25336,
+      "sha": "d886a6e662e1be0be610d68097855f13a812cb2d"
+    },
+    {
+      "path": "assets/d8a0a019dc9d.webp",
+      "size": 28264,
+      "sha": "dbffa2f39284decb4184d9aee77007d038890298"
+    },
+    {
+      "path": "assets/dc4c7c80dd3a.webp",
+      "size": 219476,
+      "sha": "a010543966d0a2f648a5ae4051f83d586b5bcacb"
+    },
+    {
+      "path": "assets/dfdaa7723a2f.webp",
+      "size": 52592,
+      "sha": "d7986d912cff8a427de3ca595eaaba89b5cb0ce5"
+    },
+    {
+      "path": "assets/e867d572d9de.webp",
+      "size": 222648,
+      "sha": "a434a7c85dbc630761bc4063dd3bf8f674036bc8"
+    },
+    {
+      "path": "assets/e91dc0af39a1.webp",
+      "size": 45770,
+      "sha": "7bb9e30d31878fdebb893a8576f2fc04d3a95503"
+    },
+    {
+      "path": "assets/f3dff6ad6a17.webp",
+      "size": 47706,
+      "sha": "043e9c032b18a1cc54ca2b2a689c41733b7aaf5f"
+    },
+    {
+      "path": "assets/f8a48dce4a8a.webp",
+      "size": 27432,
+      "sha": "3e6f476a03cfff9c0e3c973c6399d5508a2b5b72"
+    },
+    {
+      "path": "assets/fde7fd398b8f.webp",
+      "size": 42824,
+      "sha": "9f029e3234672b707d923fdbd20db4187d7f0d18"
+    },
+    {
+      "path": "assets/tvn-finland.webp",
+      "size": 257224,
+      "sha": "5d6d51317f0c4d5b24a5e3f9dd914b86af23001a"
+    },
+    {
+      "path": "assets/tvn-italy.webp",
+      "size": 264590,
+      "sha": "d35b317b76527dc09b73be28a8755d1395e7bb83"
+    },
+    {
+      "path": "contents-solution.html",
+      "size": 18224,
+      "sha": "7a3505d5fa3364c20f68d49dc3e6eb5ef4a646eb"
+    },
+    {
+      "path": "favicon.svg",
+      "size": 224,
+      "sha": "c054d91e167d7c424bba4efefcfc013d7bf0af76"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "size": 4380,
+      "sha": "7ee44cf05fe09f5dc9293f40b96f3f9f66478d65"
+    },
+    {
+      "path": "fonts/SUIT-Variable.woff2",
+      "size": 624536,
+      "sha": "89d7e4c28fe8069a8110a79dc7ca3cd446745de9"
+    },
+    {
+      "path": "ideas.html",
+      "size": 10513,
+      "sha": "850de34fb3be8df7a60e70a64ce23267b9b1aec3"
+    },
+    {
+      "path": "index.html",
+      "size": 58075,
+      "sha": "777cff8d9ddb66684b4d77837f221cb190c4b14d"
+    },
+    {
+      "path": "on-air.html",
+      "size": 19406,
+      "sha": "052eaf4bf087ba3993a9f17600ff3e86c2b82b0a"
+    },
+    {
+      "path": "on-k.html",
+      "size": 7803,
+      "sha": "d819234696eaef50c37bb180c2eddaf7bc4abb9e"
+    },
+    {
+      "path": "scripts/build-work-panels.py",
+      "size": 1745,
+      "sha": "cf7e7a7f53fd6355974d63ee8742f47db0f8a646",
+      "content": "\"\"\"Keep homepage work panels synchronized with the project detail pages.\"\"\"\nfrom pathlib import Path\nimport re\n\nroot = Path(__file__).resolve().parents[1]\n\ndef collection(name, section_id=None):\n    page = (root / f'{name}.html').read_text()\n    content = re.search(r'<main\\b[^>]*>(.*?)</main>', page, re.S).group(1)\n    content = re.sub(r'<a class=\"breadcrumb\".*?</a>', '', content, flags=re.S)\n    content = re.sub(r'<section class=\"next-project\".*?</section>', '', content, flags=re.S)\n    # One homepage h1; collections, individual cases and captions nest beneath it.\n    for level in (3, 2, 1):\n        target = {3: 5, 2: 4, 1: 3}[level]\n        content = re.sub(fr'<(/?)h{level}(\\b[^>]*)>', fr'<\\1h{target}\\2>', content)\n    if section_id:\n        return f'<section class=\"copy-collection\" id=\"{section_id}\">{content}</section>'\n    return content\n\nindex = root / 'index.html'\npage = index.read_text()\nstart = '<!-- INLINE WORK PANELS START -->'\nend = '<!-- INLINE WORK PANELS END -->'\nbrand = collection('on-k')\nppl = collection('contents-solution')\ncopy = ('<nav class=\"copy-sections\" aria-label=\"카피라이팅 섹션\">'\n        '<a href=\"#copy-on-air\">Copywriting / ON AIR</a>'\n        '<a href=\"#copy-idea\">Copywriting / IDEA</a></nav>'\n        + collection('on-air', 'copy-on-air')\n        + collection('ideas', 'copy-idea'))\npanels = start + ''.join(\n    f'<div class=\"work-panel inline-collection\" id=\"work-panel-{key}\" '\n    f'data-work-panel=\"{key}\" role=\"region\" aria-labelledby=\"filter-{key}\" hidden>'\n    f'{content}</div>'\n    for key, content in [('brand', brand), ('content', ppl), ('copy', copy)]\n) + end\npage = re.sub(re.escape(start) + '.*?' + re.escape(end), lambda _: panels, page, flags=re.S)\nindex.write_text(page)\n"
+    },
+    {
+      "path": "style.css",
+      "size": 21426,
+      "sha": "5c687d09641be8d1a1c91f14620268a5d80eab4b"
+    }
+  ]
+}
