@@ -9,6 +9,8 @@ function showWork(filter, updateUrl = false) {
     button.setAttribute('aria-pressed', String(active));
   });
   workPanels.forEach(panel => {panel.hidden = panel.dataset.workPanel !== filter;});
+  const highlight = document.querySelector(".work-highlight");
+  if (highlight) highlight.hidden = filter !== "all";
   
   if (updateUrl) history.pushState(null, '', filter === 'all' ? '#work' : '#work-' + filter);
 }
