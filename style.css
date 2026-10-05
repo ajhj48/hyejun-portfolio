@@ -64,3 +64,5 @@ footer{background:#efefeb}
 .impact-grid .reel-link img{transition:opacity .2s}
 .impact-grid .reel-link:hover img{opacity:.88}
 @media(max-width:700px){.impact-grid .reel-link{aspect-ratio:.9}}
+
+.role-keywords{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:22px 0 0}.role-keywords li{border:1px solid #d9d9d3;border-radius:999px;padding:7px 13px;font-size:13px;line-height:1.5;color:#444;background:#f8f8f6}
